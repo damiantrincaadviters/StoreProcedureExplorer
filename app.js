@@ -56,9 +56,9 @@ function traverseDirectory(dir) {
 // const directoryPath = 'C:/Dev/Efecty.CB.Service'; Ready
 // const directoryPath = 'C:/Dev/Efecty.CB.Socket'; Ready
 // const directoryPath = 'C:/Dev/Efecty.CB.Transacciones'; Ready
+// "C:/Dev/Efecty.Facturacion.Ingestion"' Ready
+// "C:/Dev/Efecty.Microservicios.Antifraude", Ready
 var projects = [
-    "C:/Dev/Efecty.Facturacion.Ingestion",
-    "C:/Dev/Efecty.Microservicios.Antifraude",
     "C:/Dev/Efecty.Microservicios.Billetera",
     "C:/Dev/Efecty.Microservicios.Biometria",
     "C:/Dev/Efecty.Microservicios.Broker",
@@ -84,12 +84,19 @@ var projects = [
     "C:/Dev/Efecty.WebLive20",
 ];
 var count = 0;
-var directoryPath = 'C:/Dev/Efecty.CB.Transacciones';
-var fileName = directoryPath.replaceAll(':', '').replaceAll('/', '-').replaceAll('.', '');
 var myLogger = new console_1.Console({
-    stdout: fs.createWriteStream("".concat(fileName, ".txt")), // Save normal logs here
+    stdout: fs.createWriteStream("stdout.txt"), // Save normal logs here
     stderr: fs.createWriteStream("errStdErr.txt"), // Save error logs here
 });
-// C:/Dev/Probando
-traverseDirectory(directoryPath);
-myLogger.table({ count: count });
+projects.forEach(function (project) {
+    count = 0;
+    var directoryPath = project;
+    var fileName = directoryPath.replaceAll(':', '').replaceAll('/', '-').replaceAll('.', '');
+    myLogger = new console_1.Console({
+        stdout: fs.createWriteStream("".concat(fileName, ".txt")), // Save normal logs here
+        stderr: fs.createWriteStream("errStdErr.txt"), // Save error logs here
+    });
+    // C:/Dev/Probando
+    traverseDirectory(directoryPath);
+    myLogger.table({ count: count });
+});
