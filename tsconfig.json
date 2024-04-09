@@ -1,9 +1,12 @@
 {
-    "compilerOptions": {
-        "module": "CommonJS",
-        "target": "ESNext",
-        "esModuleInterop": true,
-        "moduleResolution": "node",
-        "strict": true
-      }
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "lib": [
+      "es2021"
+    ]
+  }
 }

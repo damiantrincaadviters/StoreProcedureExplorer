@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
-    "start": "tsc -w && nodemon --exec node dist/app.js",
+    "start": "tsc app.ts -w && nodemon --exec node dist/app.js",
     "build": "tsc"
   },
   "dependencies": {

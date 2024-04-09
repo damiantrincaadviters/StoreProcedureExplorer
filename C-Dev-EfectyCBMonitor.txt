@@ -1,0 +1,37 @@
+┌──────────┬─────────────────────────────────────────────────────────────────────────────┐
+│ (index)  │ Values                                                                      │
+├──────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ filePath │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoAuditoria.cs' │
+└──────────┴─────────────────────────────────────────────────────────────────────────────┘
+┌─────────┬───────────────────┬───────────────────────────────────────┐
+│ (index) │ file              │ storedProcedureName                   │
+├─────────┼───────────────────┼───────────────────────────────────────┤
+│ 0       │ 'DaoAuditoria.cs' │ 'spAUDINTCBInsAuditoriaIntegracionCB' │
+└─────────┴───────────────────┴───────────────────────────────────────┘
+┌──────────┬─────────────────────────────────────────────────────────────────────────────┐
+│ (index)  │ Values                                                                      │
+├──────────┼─────────────────────────────────────────────────────────────────────────────┤
+│ filePath │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │
+└──────────┴─────────────────────────────────────────────────────────────────────────────┘
+┌─────────┬───────────────────┬───────────────────────────────────┐
+│ (index) │ file              │ storedProcedureName               │
+├─────────┼───────────────────┼───────────────────────────────────┤
+│ 0       │ 'DaoMonitorCB.cs' │ 'SpLnCOMSelParametriosGenerales'  │
+│ 1       │ 'DaoMonitorCB.cs' │ 'spPARGENSelParametrosMonitorCB'  │
+│ 2       │ 'DaoMonitorCB.cs' │ 'spCOLTRACBSelTxPorEstado'        │
+│ 3       │ 'DaoMonitorCB.cs' │ 'spCOLTRACBUpdEstadoColaTxCB'     │
+│ 4       │ 'DaoMonitorCB.cs' │ 'spMOVCBInsMovimientoCB'          │
+│ 5       │ 'DaoMonitorCB.cs' │ 'spInsMDCOperaciones_Diarias'     │
+│ 6       │ 'DaoMonitorCB.cs' │ 'spInsMDCPropiedades_Diarias'     │
+│ 7       │ 'DaoMonitorCB.cs' │ 'spHISCOLTRACBInsTransaccionesCB' │
+│ 8       │ 'DaoMonitorCB.cs' │ 'spCOLTRACBUpdReintentosColaTxCB' │
+│ 9       │ 'DaoMonitorCB.cs' │ 'spMOVPLASelReferenciaMovPlanaCB' │
+│ 10      │ 'DaoMonitorCB.cs' │ 'spMOVPLACBSelMovimientoCB'       │
+│ 11      │ 'DaoMonitorCB.cs' │ 'spPARCORSelParamPorCorreTipo'    │
+│ 12      │ 'DaoMonitorCB.cs' │ 'spCORSelCorresponsalPorId'       │
+└─────────┴───────────────────┴───────────────────────────────────┘
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│ count   │ 14     │
+└─────────┴────────┘
