@@ -1,0 +1,14 @@
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoAuditoria.cs,spAUDINTCBInsAuditoriaIntegracionCB
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,SpLnCOMSelParametriosGenerales
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spPARGENSelParametrosMonitorCB
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spCOLTRACBSelTxPorEstado
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spCOLTRACBUpdEstadoColaTxCB
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spMOVCBInsMovimientoCB
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spInsMDCOperaciones_Diarias
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spInsMDCPropiedades_Diarias
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spHISCOLTRACBInsTransaccionesCB
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spCOLTRACBUpdReintentosColaTxCB
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spMOVPLASelReferenciaMovPlanaCB
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spMOVPLACBSelMovimientoCB
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spPARCORSelParamPorCorreTipo
+C:\Dev\Efecty.CB.Monitor\Efecty.MonitorCB.AccesoDatos\DaoMonitorCB.cs,spCORSelCorresponsalPorId

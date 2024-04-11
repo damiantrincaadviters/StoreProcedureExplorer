@@ -1,66 +1,56 @@
-┌──────────┬──────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                   │
-├──────────┼──────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.CB.Transacciones\\Driver\\AccesoDatos\\DAOAuditoria.cs' │
-└──────────┴──────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────────┬────────────────────────┐
-│ (index) │ file              │ storedProcedureName    │
-├─────────┼───────────────────┼────────────────────────┤
-│ 0       │ 'DAOAuditoria.cs' │ 'spAUDATAInsAuditoria' │
-└─────────┴───────────────────┴────────────────────────┘
-┌──────────┬──────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                   │
-├──────────┼──────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.CB.Transacciones\\Driver\\AccesoDatos\\DaoDriverATL.cs' │
-└──────────┴──────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────────┬────────────────────────────────┐
-│ (index) │ file              │ storedProcedureName            │
-├─────────┼───────────────────┼────────────────────────────────┤
-│ 0       │ 'DaoDriverATL.cs' │ 'spPARCORSelParamPorCorreTipo' │
-└─────────┴───────────────────┴────────────────────────────────┘
-┌──────────┬───────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                        │
-├──────────┼───────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Cache\\AccesoDatos\\DaoCache.cs' │
-└──────────┴───────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────┬────────────────────────────────┐
-│ (index) │ file          │ storedProcedureName            │
-├─────────┼───────────────┼────────────────────────────────┤
-│ 0       │ 'DaoCache.cs' │ 'SpCONCACSelConfiguracion'     │
-│ 1       │ 'DaoCache.cs' │ 'CB.spKEYMANSelLlaves'         │
-│ 2       │ 'DaoCache.cs' │ 'spPARGENSelParametrosCacheCB' │
-│ 3       │ 'DaoCache.cs' │ 'spCONCACUpdActualizarConfig'  │
-│ 4       │ 'DaoCache.cs' │ 'spPARCORSelParamCorresponsal' │
-│ 5       │ 'DaoCache.cs' │ 'spPARCORUpdValorParametro'    │
-└─────────┴───────────────┴────────────────────────────────┘
-┌──────────┬────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                 │
-├──────────┼────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │
-└──────────┴────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────┬──────────────────────────────────────────┐
-│ (index) │ file          │ storedProcedureName                      │
-├─────────┼───────────────┼──────────────────────────────────────────┤
-│ 0       │ 'DaoComun.cs' │ 'spPUNSERSelCodDanePorPS'                │
-│ 1       │ 'DaoComun.cs' │ 'spERRCORSelDescripcionError'            │
-│ 2       │ 'DaoComun.cs' │ 'CB.spKEYMANUpdLlavesPorCorresponsal'    │
-│ 3       │ 'DaoComun.cs' │ 'spCOLTRACBUpdEstadoColaTxCB'            │
-│ 4       │ 'DaoComun.cs' │ 'spHISCOLTRACBInsTransaccionesCB'        │
-│ 5       │ 'DaoComun.cs' │ 'spCOLTRACBUpdReintentosColaTxCB'        │
-│ 6       │ 'DaoComun.cs' │ 'spCOLTRACBUpdHistoricoColaTxCB'         │
-│ 7       │ 'DaoComun.cs' │ 'spASGVIRTRSelNumTrace'                  │
-│ 8       │ 'DaoComun.cs' │ 'spBLOCUECORSelValidarCuentasBloqueadas' │
-└─────────┴───────────────┴──────────────────────────────────────────┘
-┌──────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                   │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.CB.Transacciones\\Framework\\Auditoria\\Efecty.CB.Framework.Auditoria\\DaoAuditoria.cs' │
-└──────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────────┬───────────────────────────────┐
-│ (index) │ file              │ storedProcedureName           │
-├─────────┼───────────────────┼───────────────────────────────┤
-│ 0       │ 'DaoAuditoria.cs' │ 'spInsAuditoriaTransaccionCB' │
-└─────────┴───────────────────┴───────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.CB.Transacciones\\Driver\\AccesoDatos\\DAOAuditoria.cs'
+}
+┌─────────┬──────────────────────────────────────────────────────────────────────────┬────────────────────────┐
+│ (index) │ file                                                                     │ storedProcedureName    │
+├─────────┼──────────────────────────────────────────────────────────────────────────┼────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Driver\\AccesoDatos\\DAOAuditoria.cs' │ 'spAUDATAInsAuditoria' │
+└─────────┴──────────────────────────────────────────────────────────────────────────┴────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.CB.Transacciones\\Driver\\AccesoDatos\\DaoDriverATL.cs'
+}
+┌─────────┬──────────────────────────────────────────────────────────────────────────┬────────────────────────────────┐
+│ (index) │ file                                                                     │ storedProcedureName            │
+├─────────┼──────────────────────────────────────────────────────────────────────────┼────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Driver\\AccesoDatos\\DaoDriverATL.cs' │ 'spPARCORSelParamPorCorreTipo' │
+└─────────┴──────────────────────────────────────────────────────────────────────────┴────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Cache\\AccesoDatos\\DaoCache.cs'
+}
+┌─────────┬───────────────────────────────────────────────────────────────────────────────┬────────────────────────────────┐
+│ (index) │ file                                                                          │ storedProcedureName            │
+├─────────┼───────────────────────────────────────────────────────────────────────────────┼────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Cache\\AccesoDatos\\DaoCache.cs' │ 'SpCONCACSelConfiguracion'     │
+│ 1       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Cache\\AccesoDatos\\DaoCache.cs' │ 'CB.spKEYMANSelLlaves'         │
+│ 2       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Cache\\AccesoDatos\\DaoCache.cs' │ 'spPARGENSelParametrosCacheCB' │
+│ 3       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Cache\\AccesoDatos\\DaoCache.cs' │ 'spCONCACUpdActualizarConfig'  │
+│ 4       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Cache\\AccesoDatos\\DaoCache.cs' │ 'spPARCORSelParamCorresponsal' │
+│ 5       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Cache\\AccesoDatos\\DaoCache.cs' │ 'spPARCORUpdValorParametro'    │
+└─────────┴───────────────────────────────────────────────────────────────────────────────┴────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────────────┐
+│ (index) │ file                                                                                   │ storedProcedureName                      │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'spPUNSERSelCodDanePorPS'                │
+│ 1       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'spERRCORSelDescripcionError'            │
+│ 2       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'CB.spKEYMANUpdLlavesPorCorresponsal'    │
+│ 3       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'spCOLTRACBUpdEstadoColaTxCB'            │
+│ 4       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'spHISCOLTRACBInsTransaccionesCB'        │
+│ 5       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'spCOLTRACBUpdReintentosColaTxCB'        │
+│ 6       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'spCOLTRACBUpdHistoricoColaTxCB'         │
+│ 7       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'spASGVIRTRSelNumTrace'                  │
+│ 8       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Efecty.CB.Framework.AccesoDatos.Comun\\DaoComun.cs' │ 'spBLOCUECORSelValidarCuentasBloqueadas' │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.CB.Transacciones\\Framework\\Auditoria\\Efecty.CB.Framework.Auditoria\\DaoAuditoria.cs'
+}
+┌─────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────────────────────────┐
+│ (index) │ file                                                                                                     │ storedProcedureName           │
+├─────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.CB.Transacciones\\Framework\\Auditoria\\Efecty.CB.Framework.Auditoria\\DaoAuditoria.cs' │ 'spInsAuditoriaTransaccionCB' │
+└─────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────┴───────────────────────────────┘
 ┌─────────┬────────┐
 │ (index) │ Values │
 ├─────────┼────────┤

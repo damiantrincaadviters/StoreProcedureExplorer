@@ -1,35 +1,35 @@
-┌──────────┬─────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                          │
-├──────────┼─────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoComun.cs' │
-└──────────┴─────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────┬───────────────────────────┐
-│ (index) │ file                                                                                            │ storedProcedureName       │
-├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoComun.cs' │ 'spPROSelProyectoXCodigo' │
-└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────┴───────────────────────────┘
-┌──────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                   │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoMetasNuevosPAP.cs' │
-└──────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
-│ (index) │ file                                                                                                     │ storedProcedureName │
-├─────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoMetasNuevosPAP.cs' │ 'anio'              │
-└─────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
-┌──────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                │
-├──────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoPresupuesto.cs' │
-└──────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
-│ (index) │ file                                                                                                  │ storedProcedureName │
-├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoPresupuesto.cs' │ 'mes'               │
-└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoComun.cs'
+}
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────┐
+│ (index) │ file                                                                                            │ storedProcedureName              │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoComun.cs' │ 'spPROSelProyectoXCodigo'        │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoComun.cs' │ 'spSelCachePuntosServicio'       │
+│ 2       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoComun.cs' │ 'SpLnCOMSelParametriosGenerales' │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoMetasNuevosPAP.cs'
+}
+┌─────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────────┐
+│ (index) │ file                                                                                                     │ storedProcedureName                  │
+├─────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoMetasNuevosPAP.cs' │ 'spPREPAPNUESelPresupuestoPAPNuevo'  │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoMetasNuevosPAP.cs' │ 'spPREPAPNUESelPresupuestoPAPCargue' │
+│ 2       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoMetasNuevosPAP.cs' │ 'spPREPAPNUEDelPresupuestoPAPNuevo'  │
+│ 3       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoMetasNuevosPAP.cs' │ 'spPREPAPNUEUpdPresupuestoPAPNuevo'  │
+└─────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoPresupuesto.cs'
+}
+┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────────────────┐
+│ (index) │ file                                                                                                  │ storedProcedureName             │
+├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoPresupuesto.cs' │ 'spPRESelPresupuestoPsProyecto' │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.Presupuesto\\WebLive.Presupuesto.Application\\DataAccess\\DaoPresupuesto.cs' │ 'spPREDelPresupuestoPsProyecto' │
+└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────────────────┘
 ┌─────────┬────────┐
 │ (index) │ Values │
 ├─────────┼────────┤
-│ count   │ 3      │
+│ count   │ 9      │
 └─────────┴────────┘

@@ -1,45 +1,124 @@
-┌──────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                        │
-├──────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │
-└──────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
-│ (index) │ file                                                                                                          │ storedProcedureName │
-├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'idParametro'       │
-└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
-┌──────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                           │
-├──────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs' │
-└──────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────────────────────┐
-│ (index) │ file                                                                                                             │ storedProcedureName       │
-├─────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs' │ 'spCLISelClientePasarela' │
-└─────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴───────────────────────────┘
-┌──────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                              │
-├──────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │
-└──────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────────────────────────────┐
-│ (index) │ file                                                                                                                │ storedProcedureName               │
-├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLPSSelConsultarDevolucionCE' │
-└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴───────────────────────────────────┘
-┌──────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                             │
-├──────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │
-└──────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
-│ (index) │ file                                                                                                               │ storedProcedureName │
-├─────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'Respuestas'        │
-└─────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs'
+}
+┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────┐
+│ (index) │ file                                                                                                          │ storedProcedureName              │
+├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'SpLnCOMSelParametriosGenerales' │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'spSelProyectosPorProducto'      │
+│ 2       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'spSelTipoIdentificacion'        │
+│ 3       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'spUSUSELUsuariosDG'             │
+│ 4       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'spSEGSelRolesUsuario'           │
+│ 5       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'spPROSelProyectosActCre'        │
+│ 6       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'spSelMotivosSolicitud'          │
+│ 7       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoComun.cs' │ 'spSelClienteEmp'                │
+└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs'
+}
+┌─────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────┐
+│ (index) │ file                                                                                                             │ storedProcedureName              │
+├─────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs' │ 'spCLISelClientePasarela'        │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs' │ 'spPASOFESelPasarelaOfertas'     │
+│ 2       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs' │ 'spPASOFEInsPasarelaOfertas'     │
+│ 3       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs' │ 'spPASOFEUpdPasarelaOfertas'     │
+│ 4       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs' │ 'spPROEXTUpdLiqAgrupada'         │
+│ 5       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoPasarela.cs' │ 'spCLIPROSelLiquidacionAgrupada' │
+└─────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs'
+}
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────────────────────────────────────┐
+│ (index) │ file                                                                                                                │ storedProcedureName                       │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLPSSelConsultarDevolucionCE'         │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarOS'                     │
+│ 2       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVCBSelConsultarCB'                   │
+│ 3       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVCBSelConsultarCB'                   │
+│ 4       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarGiroFE'                 │
+│ 5       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarOS'                     │
+│ 6       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarOS'                     │
+│ 7       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLPSSelVerificarSolExistente'         │
+│ 8       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLUpdAprobarSolicitudDevolucionFE'    │
+│ 9       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spAprobarSolicitudDevolucion'            │
+│ 10      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLPSUpdRechazarSolicitudDevolucionFE' │
+│ 11      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLPSUpdRechazarSolicitudDevolucion'   │
+│ 12      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLPSUpdReversarSolicitudDevolucionFE' │
+│ 13      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLPSUpdReversarSolicitudDevolucion'   │
+│ 14      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarOS'                     │
+│ 15      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSOLPSSelConsultarDevolucionFE'         │
+│ 16      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarGiroFE'                 │
+│ 17      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSERPUBSelConsultarFacturas'            │
+│ 18      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarFVE'                    │
+│ 19      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spLnCLISelClienteRegistrado'             │
+│ 20      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarInfoCajero'             │
+│ 21      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarInfoCajeroCUP'          │
+│ 22      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVSelConsultarRecaudosHistorico'      │
+│ 23      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVInsExportarRecaudoHistorico'        │
+│ 24      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSelClienteEmpRta'                      │
+│ 25      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSelClienteEmpRta'                      │
+│ 26      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSelClienteEmpRta'                      │
+│ 27      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPINGESSelConsultarSolicitudesPINES'    │
+│ 28      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spInsSMSREGInsertarMensaje'              │
+│ 29      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPINGESSelConsultarSolicitantePINES'    │
+│ 30      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spTIPMOVSelTipoOperacion'                │
+│ 31      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spSERPUBSelConsultarFactura'             │
+│ 32      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVCBSelConsultarCB'                   │
+│ 33      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVCBSelConsultarCB'                   │
+│ 34      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVCBSelConsultarRecaudosHistorico'    │
+│ 35      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVCBInsExportarRecaudoHistorico'      │
+│ 36      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spMOVCBSelConsultarInfoCajero'           │
+│ 37      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPORPREFRESelCategoriaPts'              │
+│ 38      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPORPREFREselPorCateg'                  │
+│ 39      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPORPREFREupdCateg'                     │
+│ 40      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPORPREFREinsPregunta'                  │
+│ 41      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPORPREFREupdInhabilitar'               │
+│ 42      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPORPREFREupdInhabiliCategoria'         │
+│ 43      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPORPREFREupdPregunta'                  │
+│ 44      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPCTUTupdInhabilitar'                   │
+│ 45      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPCTUTupdTutorial'                      │
+│ 46      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPCTUTinsTutorial'                      │
+│ 47      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPCTUTselTutoriales'                    │
+│ 48      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPCMANupdInhabilitar'                   │
+│ 49      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPCMANupdManual'                        │
+│ 50      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPCMANinsManual'                        │
+│ 51      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spPCMANselManuales'                      │
+│ 52      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spInsSolicitudPS'                        │
+│ 53      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoSolicitudes.cs' │ 'spUpdSolicitudPS'                        │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴───────────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────────────┐
+│ (index) │ file                                                                                                               │ storedProcedureName         │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRESSelPorcentAprobacion' │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spHISVIASelHistorico'      │
+│ 2       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spHISVIASelViabilidad'     │
+│ 3       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spHISVIAInsViabilidad'     │
+│ 4       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRANAPRSelRango'          │
+│ 5       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRANAPRSelRangoxID'       │
+│ 6       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRANAPRInsRango'          │
+│ 7       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRANAPRUpdRango'          │
+│ 8       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRANAPRdelEliminarRango'  │
+│ 9       │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spSECInsSeccion'           │
+│ 10      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spSECUpdSeccion'           │
+│ 11      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spSECUpdEliminarSeccion'   │
+│ 12      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spSECSelSeccion'           │
+│ 13      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spSECSelSeccionxID'        │
+│ 14      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spPRESelxIDSeccion'        │
+│ 15      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spPREInsPregunta'          │
+│ 16      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spPREUpdEliminarPregunta'  │
+│ 17      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spPREUpdPregunta'          │
+│ 18      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spPRESelPreguntaxID'       │
+│ 19      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRESSelxIDPregunta'       │
+│ 20      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRESInsRespuesta'         │
+│ 21      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRESUpdRespuesta'         │
+│ 22      │ 'C:\\Dev\\Efecty.WebLive.ClienteEmpresarial\\WebLive.ClienteEmpresarial.Application\\DataAccess\\DaoViabilidad.cs' │ 'spRESUpdEliminarRespuesta' │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────────────┘
 ┌─────────┬────────┐
 │ (index) │ Values │
 ├─────────┼────────┤
-│ count   │ 4      │
+│ count   │ 91     │
 └─────────┴────────┘

@@ -7,6 +7,7 @@
     "build": "tsc"
   },
   "dependencies": {
+    "csv-stringify": "^6.4.6",
     "fs": "^0.0.1-security",
     "path": "^0.12.7"
   },

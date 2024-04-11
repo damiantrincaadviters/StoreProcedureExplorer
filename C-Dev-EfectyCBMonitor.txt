@@ -1,35 +1,31 @@
-┌──────────┬─────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                      │
-├──────────┼─────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoAuditoria.cs' │
-└──────────┴─────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────────┬───────────────────────────────────────┐
-│ (index) │ file              │ storedProcedureName                   │
-├─────────┼───────────────────┼───────────────────────────────────────┤
-│ 0       │ 'DaoAuditoria.cs' │ 'spAUDINTCBInsAuditoriaIntegracionCB' │
-└─────────┴───────────────────┴───────────────────────────────────────┘
-┌──────────┬─────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                      │
-├──────────┼─────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │
-└──────────┴─────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────────┬───────────────────────────────────┐
-│ (index) │ file              │ storedProcedureName               │
-├─────────┼───────────────────┼───────────────────────────────────┤
-│ 0       │ 'DaoMonitorCB.cs' │ 'SpLnCOMSelParametriosGenerales'  │
-│ 1       │ 'DaoMonitorCB.cs' │ 'spPARGENSelParametrosMonitorCB'  │
-│ 2       │ 'DaoMonitorCB.cs' │ 'spCOLTRACBSelTxPorEstado'        │
-│ 3       │ 'DaoMonitorCB.cs' │ 'spCOLTRACBUpdEstadoColaTxCB'     │
-│ 4       │ 'DaoMonitorCB.cs' │ 'spMOVCBInsMovimientoCB'          │
-│ 5       │ 'DaoMonitorCB.cs' │ 'spInsMDCOperaciones_Diarias'     │
-│ 6       │ 'DaoMonitorCB.cs' │ 'spInsMDCPropiedades_Diarias'     │
-│ 7       │ 'DaoMonitorCB.cs' │ 'spHISCOLTRACBInsTransaccionesCB' │
-│ 8       │ 'DaoMonitorCB.cs' │ 'spCOLTRACBUpdReintentosColaTxCB' │
-│ 9       │ 'DaoMonitorCB.cs' │ 'spMOVPLASelReferenciaMovPlanaCB' │
-│ 10      │ 'DaoMonitorCB.cs' │ 'spMOVPLACBSelMovimientoCB'       │
-│ 11      │ 'DaoMonitorCB.cs' │ 'spPARCORSelParamPorCorreTipo'    │
-│ 12      │ 'DaoMonitorCB.cs' │ 'spCORSelCorresponsalPorId'       │
-└─────────┴───────────────────┴───────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoAuditoria.cs'
+}
+┌─────────┬─────────────────────────────────────────────────────────────────────────────┬───────────────────────────────────────┐
+│ (index) │ file                                                                        │ storedProcedureName                   │
+├─────────┼─────────────────────────────────────────────────────────────────────────────┼───────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoAuditoria.cs' │ 'spAUDINTCBInsAuditoriaIntegracionCB' │
+└─────────┴─────────────────────────────────────────────────────────────────────────────┴───────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs'
+}
+┌─────────┬─────────────────────────────────────────────────────────────────────────────┬───────────────────────────────────┐
+│ (index) │ file                                                                        │ storedProcedureName               │
+├─────────┼─────────────────────────────────────────────────────────────────────────────┼───────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'SpLnCOMSelParametriosGenerales'  │
+│ 1       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spPARGENSelParametrosMonitorCB'  │
+│ 2       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spCOLTRACBSelTxPorEstado'        │
+│ 3       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spCOLTRACBUpdEstadoColaTxCB'     │
+│ 4       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spMOVCBInsMovimientoCB'          │
+│ 5       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spInsMDCOperaciones_Diarias'     │
+│ 6       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spInsMDCPropiedades_Diarias'     │
+│ 7       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spHISCOLTRACBInsTransaccionesCB' │
+│ 8       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spCOLTRACBUpdReintentosColaTxCB' │
+│ 9       │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spMOVPLASelReferenciaMovPlanaCB' │
+│ 10      │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spMOVPLACBSelMovimientoCB'       │
+│ 11      │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spPARCORSelParamPorCorreTipo'    │
+│ 12      │ 'C:\\Dev\\Efecty.CB.Monitor\\Efecty.MonitorCB.AccesoDatos\\DaoMonitorCB.cs' │ 'spCORSelCorresponsalPorId'       │
+└─────────┴─────────────────────────────────────────────────────────────────────────────┴───────────────────────────────────┘
 ┌─────────┬────────┐
 │ (index) │ Values │
 ├─────────┼────────┤

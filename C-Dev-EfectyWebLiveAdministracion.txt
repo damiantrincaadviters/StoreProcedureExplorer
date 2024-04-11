@@ -1,25 +1,115 @@
-┌──────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                │
-├──────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoComun.cs' │
-└──────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────────────────────┐
-│ (index) │ file                                                                                                  │ storedProcedureName       │
-├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoComun.cs' │ 'spPROSelProyectoXCodigo' │
-└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────┴───────────────────────────┘
-┌──────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ (index)  │ Values                                                                                                         │
-├──────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ filePath │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │
-└──────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-┌─────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
-│ (index) │ file                                                                                                           │ storedProcedureName │
-├─────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
-│ 0       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'PS'                │
-└─────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoComun.cs'
+}
+┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────┐
+│ (index) │ file                                                                                                  │ storedProcedureName              │
+├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoComun.cs' │ 'spPROSelProyectoXCodigo'        │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoComun.cs' │ 'spSelCachePuntosServicio'       │
+│ 2       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoComun.cs' │ 'SpLnCOMSelParametriosGenerales' │
+│ 3       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoComun.cs' │ 'SpCONSelContratistasActivos'    │
+└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬────────────────────────────────────────────────┐
+│ (index) │ file                                                                                                           │ storedProcedureName                            │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼────────────────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpCredSelAdministrarVersionLive'              │
+│ 1       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSelAplicaciones'                            │
+│ 2       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSelAreas'                                   │
+│ 3       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpCredUpdAdmVersionLive'                      │
+│ 4       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCredUpdTodasVersionesLive'                  │
+│ 5       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpCredUpdBdLocales'                           │
+│ 6       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpCredUpdBdLocales'                           │
+│ 7       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpLnSINSelControlSincronizacion'              │
+│ 8       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSelGrupos'                                  │
+│ 9       │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpCLIselClientesUsuario'                      │
+│ 10      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCLIUSUselxUsuCodigo'                        │
+│ 11      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpMENDGSelMenuXGrupo'                         │
+│ 12      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpGRUDGDelMenusGrupo'                         │
+│ 13      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpMENVERDelMenusVersion'                      │
+│ 14      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpMENVERInsMenuVersion'                       │
+│ 15      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUSUSELUsuariosLive'                         │
+│ 16      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUSUselInfoBasica'                           │
+│ 17      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spInsGrupos'                                  │
+│ 18      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spVerSelVersionesDG'                          │
+│ 19      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUSUINSUsuariosLive'                         │
+│ 20      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUSUUPDUsuariosLive'                         │
+│ 21      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spVerINSVersionDGUsuariosLive'                │
+│ 22      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spVerDELVersionDGUsuariosLive'                │
+│ 23      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUsuINSUsuarioGrupo'                         │
+│ 24      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUSUINSUsuarioCliente'                       │
+│ 25      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUsuDELUsuarioGrupo'                         │
+│ 26      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUSUDELUsuarioCliente'                       │
+│ 27      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spHorINSHorarioUsuario'                       │
+│ 28      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spHorDELHorarioUsuario'                       │
+│ 29      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spHorUPDHorarioUsuario'                       │
+│ 30      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCredUpdMenuDG'                              │
+│ 31      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCORRCLIINTSelConsultarCorreoClienteInterno' │
+│ 32      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCORRCLIINTUPDCorreosclienteInterno'         │
+│ 33      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCORRCLIINTINSCorreosclienteInterno'         │
+│ 34      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCORRCLIINTDELCorreosclienteInterno'         │
+│ 35      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAUSUSELUsuariosSOA'                       │
+│ 36      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spAPLSOASelAplicacionesSOA'                   │
+│ 37      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAUSUINSUsuariosSOA'                       │
+│ 38      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAUSUUPDUsuariosSOA'                       │
+│ 39      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOASERVSelConsultarServiciosSOA'            │
+│ 40      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAMETODSelConsultarMetodosSOA'             │
+│ 41      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAMETODSelConsultarTodosMetodosSOA'        │
+│ 42      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spMODseLModulosActivos'                       │
+│ 43      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOASERVInsRegistarServicioSOA'              │
+│ 44      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOASERVIUpdActualizacionServiciosSOA'       │
+│ 45      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAMETODUpdActualizacioMetodoSOA'           │
+│ 46      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAMETODInsRegistroMetodoSOA'               │
+│ 47      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spAPLSOASelAplicacionesSOA'                   │
+│ 48      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spAPLSOAUpdAplicacionesSOA'                   │
+│ 49      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spAPLSOAInsAplicacionSOA'                     │
+│ 50      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spROLAPLSOASelRolesAplicacionSOA'             │
+│ 51      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spMETSOASelMetodosSOA'                        │
+│ 52      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spROLAPLSOAInsRolesAplicacionSOA'             │
+│ 53      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAROLAPLInsRolesAplicacionxModulo'         │
+│ 54      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spROLAPLSOADelRolesAplicacionSOA'             │
+│ 55      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spROLAPLSOAUpdRolesAplicacionSOA'             │
+│ 56      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spROLAPLSOAUpdRolesAplicacionSOA'             │
+│ 57      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCORCLISelCorreoClienteinterno'              │
+│ 58      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spPLAIMPSelConsultaOperacionPlantillas'       │
+│ 59      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spPLAIMPSelPlantillaImpresion'                │
+│ 60      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spPLAAPLSelConsultarAplicaciones'             │
+│ 61      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spPLAIMPSelConsultaVersionPlantillas'         │
+│ 62      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spPLAAPLUpdDatosPlantillasAplicacion'         │
+│ 63      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spCARSelObtenerCargos'                        │
+│ 64      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spAUDUSUInsRegistro'                          │
+│ 65      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUSUUpdIdentificacion'                       │
+│ 66      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spUpdTriggerSincroProyectos'                  │
+│ 67      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spAUDUSUSelHistorial'                         │
+│ 68      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpMENDGSelMenus'                              │
+│ 69      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAUSUSELUsuariosSOATP'                     │
+│ 70      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spTERPSSelConsultarRetailPunto'               │
+│ 71      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spPLAAPLInsPlantillaAplicacionxSOAMODPLA'     │
+│ 72      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spPLAAPLSelPlantillaAplicacion'               │
+│ 73      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spSOAUSUSELUsuariosSOAxUsuario'               │
+│ 74      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFSelWcfEndPoint'                          │
+│ 75      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFInsWcfEndPoint'                          │
+│ 76      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFUpdWcfEndPoint'                          │
+│ 77      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spDelWcfEndPoint'                             │
+│ 78      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFInsWcfBehavior'                          │
+│ 79      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFUpdWcfBehavior'                          │
+│ 80      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFSelWcfBehavior'                          │
+│ 81      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFInsWcfBinding'                           │
+│ 82      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFUpdWcfBinding'                           │
+│ 83      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFSelWcfBinding'                           │
+│ 84      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFSelWcfExtension'                         │
+│ 85      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFSelWcfExtension'                         │
+│ 86      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFSelWcfExtensioniD'                       │
+│ 87      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFInsWcfExtension'                         │
+│ 88      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spWCFUpdWcfExtension'                         │
+│ 89      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'SpCONMODFREInsControlModFrecuentes'           │
+│ 90      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spTABSelConsultaEstructuraTabla'              │
+│ 91      │ 'C:\\Dev\\Efecty.WebLive.Administracion\\WebLive.Administracion.Application\\DataAccess\\DaoSopTecnologico.cs' │ 'spMETWEBAUDSelMetodosWeblive'                 │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴────────────────────────────────────────────────┘
 ┌─────────┬────────┐
 │ (index) │ Values │
 ├─────────┼────────┤
-│ count   │ 2      │
+│ count   │ 96     │
 └─────────┴────────┘

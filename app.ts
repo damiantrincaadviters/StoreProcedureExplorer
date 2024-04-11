@@ -1,12 +1,13 @@
 import { Console } from 'console';
 import * as fs from 'fs';
 import * as path from 'path';
+import * as csv from 'csv-stringify';
 
-function processFile(filePath: string) {
+function processFile(filePath: string, fileName: string) {
     try {
         const stats = fs.statSync(filePath)
         if (stats.isDirectory()) {
-            traverseDirectory(filePath);
+            traverseDirectory(filePath, fileName);
         } else {
             if (filePath.includes('.dll') || filePath.includes('.pubxml')) return;
 
@@ -14,18 +15,21 @@ function processFile(filePath: string) {
             if (data.length > 0) {
                 const targetSubstring = "GetStoredProcCommand";
                 if (data.includes(targetSubstring)) {
-                    myLogger.table({ filePath })
+                    myLogger.log({ filePath })
                     const file = filePath.split('//').reverse()[0];
-                    const lines = data.split('/n');
+
+                    const lines = data.split('\r\n');;
                     const linesWithSubstring = lines.filter(line => line.includes(targetSubstring));
 
                     if (linesWithSubstring) {
-                        let storedProcedureNames = linesWithSubstring.map(lineWithSubstring => {
+                        const storedProcedureNames = linesWithSubstring.map(lineWithSubstring => {
                             const matching = lineWithSubstring.match(/"([^"]+)"/);
                             const storedProcedureName = matching ? matching[1] : '';
                             count = count + 1;
-                            return { file, storedProcedureName }
-                        })
+                            return { file, storedProcedureName };
+                        });
+
+                        storeProceduresFound = storeProceduresFound.concat(storedProcedureNames);
 
                         myLogger.table(storedProcedureNames);
                     }
@@ -37,31 +41,29 @@ function processFile(filePath: string) {
     }
 }
 
-function traverseDirectory(dir: string) {
+function traverseDirectory(dir: string, fileName: string) {
     try {
         const files = fs.readdirSync(dir);
         files.forEach(file => {
             const filePath = path.join(dir, file);
-            processFile(filePath);
+            processFile(filePath, fileName);
         });
     } catch (err) {
         console.error('Error reading directory:', err);
     }
 }
 
-
-// Call the function with the directory path you want to traverse
-
-// const directoryPath = 'C:/Dev/Efecty.SiewebLive'; Listo
-// const directoryPath = 'C:/Dev/Efecty.CB.DispersionPagos'; Listo
-// const directoryPath = 'C:/Dev/Efecty.CB.Monitor'; Ready
-// const directoryPath = 'C:/Dev/Efecty.CB.Service'; Ready
-// const directoryPath = 'C:/Dev/Efecty.CB.Socket'; Ready
-// const directoryPath = 'C:/Dev/Efecty.CB.Transacciones'; Ready
-// "C:/Dev/Efecty.Facturacion.Ingestion"' Ready
-// "C:/Dev/Efecty.Microservicios.Antifraude", Ready
+//#region Global Var
 
 var projects = [
+    'C:/Dev/Efecty.SiewebLive',
+    'C:/Dev/Efecty.CB.DispersionPagos',
+    'C:/Dev/Efecty.CB.Monitor',
+    'C:/Dev/Efecty.CB.Service',
+    'C:/Dev/Efecty.CB.Socket',
+    'C:/Dev/Efecty.CB.Transacciones',
+    "C:/Dev/Efecty.Facturacion.Ingestion",
+    "C:/Dev/Efecty.Microservicios.Antifraude",
     "C:/Dev/Efecty.Microservicios.Billetera",
     "C:/Dev/Efecty.Microservicios.Biometria",
     "C:/Dev/Efecty.Microservicios.Broker",
@@ -86,23 +88,69 @@ var projects = [
     "C:/Dev/Efecty.WebLive.Tarificador",
     "C:/Dev/Efecty.WebLive20",
 ];
+
+let globalStoreProcedures: { file: string; storedProcedureName: string }[] = [];
+let globalCount = 0;
+let globalFileName = 'global-store-procedures';
+
+//#endregion
+
+//#region Local to the projects
 let count = 0;
+let storeProceduresFound: { file: string; storedProcedureName: string }[] = [];
+
 let myLogger = new Console({
     stdout: fs.createWriteStream(`stdout.txt`), // Save normal logs here
     stderr: fs.createWriteStream("errStdErr.txt"),    // Save error logs here
 });
+
 projects.forEach(project => {
     count = 0;
+    storeProceduresFound = [];
     const directoryPath: string = project;
     const fileName = directoryPath.replaceAll(':', '').replaceAll('/', '-').replaceAll('.', '');
 
     myLogger = new Console({
-        stdout: fs.createWriteStream(`${fileName}.txt`), // Save normal logs here
-        stderr: fs.createWriteStream("errStdErr.txt"),    // Save error logs here
+        stdout: fs.createWriteStream(`${fileName}.txt`),
+        stderr: fs.createWriteStream("errStdErr.txt"),
     });
 
-    // C:/Dev/Probando
-    traverseDirectory(directoryPath);
+    traverseDirectory(directoryPath, fileName);
+
+    csv.stringify(storeProceduresFound, (err, output) => {
+        if (err) {
+            console.error('Error creating CSV:', err);
+            return;
+        }
+        fs.writeFileSync(`${fileName}.csv`, output);
+    });
+
+    console.table(storeProceduresFound);
+    console.log({ fileName, count })
     myLogger.table({ count })
+
+    //Set the global
+    globalStoreProcedures = globalStoreProcedures.concat(storeProceduresFound);
+    globalCount = globalCount + count;
 })
 
+//#endregion
+
+//#region Global SP
+
+myLogger = new Console({
+    stdout: fs.createWriteStream(`${globalFileName}.txt`), // Save normal logs here
+    stderr: fs.createWriteStream("errStdErr.txt"),    // Save error logs here
+});
+
+csv.stringify(globalStoreProcedures, (err, output) => {
+    if (err) {
+        console.error('Error creating CSV:', err);
+        return;
+    }
+    fs.writeFileSync(`${globalFileName}.csv`, output);
+});
+
+myLogger.table(globalStoreProcedures);
+
+//#endregion
