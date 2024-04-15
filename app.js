@@ -15,7 +15,7 @@ function processFile(filePath, fileName) {
                 return;
             var data = fs.readFileSync(filePath, 'utf8');
             if (data.length > 0) {
-                var targetSubstring_1 = "GetStoredProcCommand";
+                var targetSubstring_1 = "SELECT *";
                 if (data.includes(targetSubstring_1)) {
                     myLogger.log({ filePath: filePath });
                     var file_1 = filePath.split('//').reverse()[0];
@@ -88,7 +88,7 @@ var projects = [
 ];
 var globalStoreProcedures = [];
 var globalCount = 0;
-var globalFileName = 'global-store-procedures';
+var globalFileName = 'global-select';
 //#endregion
 //#region Local to the projects
 var count = 0;
@@ -103,7 +103,7 @@ projects.forEach(function (project) {
     var directoryPath = project;
     var fileName = directoryPath.replaceAll(':', '').replaceAll('/', '-').replaceAll('.', '');
     myLogger = new console_1.Console({
-        stdout: fs.createWriteStream("".concat(fileName, ".txt")),
+        stdout: fs.createWriteStream("".concat(fileName, "-select.txt")),
         stderr: fs.createWriteStream("errStdErr.txt"),
     });
     traverseDirectory(directoryPath, fileName);
@@ -112,7 +112,7 @@ projects.forEach(function (project) {
             console.error('Error creating CSV:', err);
             return;
         }
-        fs.writeFileSync("".concat(fileName, ".csv"), output);
+        fs.writeFileSync("".concat(fileName, "-select.csv"), output);
     });
     console.table(storeProceduresFound);
     console.log({ fileName: fileName, count: count });

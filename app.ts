@@ -13,7 +13,7 @@ function processFile(filePath: string, fileName: string) {
 
             const data = fs.readFileSync(filePath, 'utf8');
             if (data.length > 0) {
-                const targetSubstring = "GetStoredProcCommand";
+                const targetSubstring = "SELECT *";
                 if (data.includes(targetSubstring)) {
                     myLogger.log({ filePath })
                     const file = filePath.split('//').reverse()[0];
@@ -91,7 +91,7 @@ var projects = [
 
 let globalStoreProcedures: { file: string; storedProcedureName: string }[] = [];
 let globalCount = 0;
-let globalFileName = 'global-store-procedures';
+let globalFileName = 'global-select';
 
 //#endregion
 
@@ -111,7 +111,7 @@ projects.forEach(project => {
     const fileName = directoryPath.replaceAll(':', '').replaceAll('/', '-').replaceAll('.', '');
 
     myLogger = new Console({
-        stdout: fs.createWriteStream(`${fileName}.txt`),
+        stdout: fs.createWriteStream(`${fileName}-select.txt`),
         stderr: fs.createWriteStream("errStdErr.txt"),
     });
 
@@ -122,7 +122,7 @@ projects.forEach(project => {
             console.error('Error creating CSV:', err);
             return;
         }
-        fs.writeFileSync(`${fileName}.csv`, output);
+        fs.writeFileSync(`${fileName}-select.csv`, output);
     });
 
     console.table(storeProceduresFound);

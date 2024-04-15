@@ -1,0 +1,107 @@
+C:\Dev\Efecty.SiewebLive\BackGround.TablasBasicas\Cache\Servicios\CacheRepositoryServicio.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive\BackGround.TablasBasicas\Cache\Servicios\CacheRepositoryServicio.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive\BackGround.TablasBasicas\Cache\Servicios\CacheRepositoryServicio.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive\BackGround.TablasBasicas\Cache\Servicios\CacheRepositoryServicio.cs, SELECT * FROM [{dataTable.TableName}] ; 
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Administracion.Clientes.Tests\ClientesNegocioTest.cs,SELECT * FROM lista_restrictiva ORDER BY lisresfechaactualizacion desc
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Administracion.Tests\SolicitudesNegocioTest.cs,SELECT * FROM SOLICITUDESPS WHERE SOLPSMOVIMIENTO = '
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'AUDITORIAS_SINCRONIZACION'
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'AUDITORIA_EXCEPCIONES_SINCRONIZACION'
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\Servicios\SupervisorImpresora.cs,SELECT * FROM Win32_Printer where Name = '
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\Servicios\SupervisorImpresora.cs,SELECT * FROM Win32_Printer where Name = '
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Empresarial\AccesoDatos\AdlEmpresarialBase.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Seguridad.Tests\SeguridadNegocioTest.cs,SELECT * FROM USUARIO 
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.ServicioTecnico.Tests\ServicioTecnicoNegocioTest.cs,SELECT * FROM PROYECTOS
+C:\Dev\Efecty.SiewebLive\Framework.Gestores\Diagnostico\AntivirusDetection.cs,SELECT * FROM AntivirusProduct
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive\LogicaNegocio.TablasBasicas\TablasBasicasNegocio.cs,
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_OperatingSystem
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_Processor
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_ComputerSystem
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_DiskDrive
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_BIOS
+C:\Dev\Efecty.SiewebLive\Modulos.ServicioTecnico\AccesoDatos\ADLServicioTecnicoBase.cs,SELECT * FROM 
+C:\Dev\Efecty.Microservicios.Transaccion\MailTemplates\LÉEME!.txt,
+C:\Dev\Efecty.SiewebLive\BackGround.TablasBasicas\Cache\Servicios\CacheRepositoryServicio.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive\BackGround.TablasBasicas\Cache\Servicios\CacheRepositoryServicio.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive\BackGround.TablasBasicas\Cache\Servicios\CacheRepositoryServicio.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive\BackGround.TablasBasicas\Cache\Servicios\CacheRepositoryServicio.cs, SELECT * FROM [{dataTable.TableName}] ; 
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Administracion.Clientes.Tests\ClientesNegocioTest.cs,SELECT * FROM lista_restrictiva ORDER BY lisresfechaactualizacion desc
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Administracion.Tests\SolicitudesNegocioTest.cs,SELECT * FROM SOLICITUDESPS WHERE SOLPSMOVIMIENTO = '
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'AUDITORIAS_SINCRONIZACION'
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\AccesoDatos\ADLComun.cs,SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'AUDITORIA_EXCEPCIONES_SINCRONIZACION'
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\Servicios\SupervisorImpresora.cs,SELECT * FROM Win32_Printer where Name = '
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Comun\Servicios\SupervisorImpresora.cs,SELECT * FROM Win32_Printer where Name = '
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Empresarial\AccesoDatos\AdlEmpresarialBase.cs,
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.Seguridad.Tests\SeguridadNegocioTest.cs,SELECT * FROM USUARIO 
+C:\Dev\Efecty.SiewebLive\Cliente.Modulos.ServicioTecnico.Tests\ServicioTecnicoNegocioTest.cs,SELECT * FROM PROYECTOS
+C:\Dev\Efecty.SiewebLive\Framework.Gestores\Diagnostico\AntivirusDetection.cs,SELECT * FROM AntivirusProduct
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive\Librerias\SQLite\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive\LogicaNegocio.TablasBasicas\TablasBasicasNegocio.cs,
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_OperatingSystem
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_Processor
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_ComputerSystem
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_DiskDrive
+C:\Dev\Efecty.SiewebLive\Modulos.Seguridad\Servicios\SeguridadNegocio.cs,SELECT * FROM Win32_BIOS
+C:\Dev\Efecty.SiewebLive\Modulos.ServicioTecnico\AccesoDatos\ADLServicioTecnicoBase.cs,SELECT * FROM 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.CacheDeamon\Motor\EntropyWorker.cs, SELECT * FROM [{dt.TableName}] WITH(NOLOCK) ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{tableName}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{dataTable.TableName}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,SELECT * FROM t1;

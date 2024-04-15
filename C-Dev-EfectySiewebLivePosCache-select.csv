@@ -1,0 +1,22 @@
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.CacheDeamon\Motor\EntropyWorker.cs, SELECT * FROM [{dt.TableName}] WITH(NOLOCK) ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{tableName}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{delta.Table}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Efecty.PosCache.PosFront\Persistencia\RepositorioCache.cs, SELECT * FROM [{dataTable.TableName}] ; 
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net20\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.0\System.Data.SQLite.xml,SELECT * FROM t1;
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,
+C:\Dev\Efecty.SiewebLive.PosCache\Libs\System.Data.SQLite.Core.1.0.112.2\lib\netstandard2.1\System.Data.SQLite.xml,SELECT * FROM t1;

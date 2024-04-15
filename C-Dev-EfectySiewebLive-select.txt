@@ -1,0 +1,159 @@
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\BackGround.TablasBasicas\\Cache\\Servicios\\CacheRepositoryServicio.cs'
+}
+┌─────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────────────────────────────┐
+│ (index) │ file                                                                                                 │ storedProcedureName                         │
+├─────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\BackGround.TablasBasicas\\Cache\\Servicios\\CacheRepositoryServicio.cs' │ ' SELECT * FROM [{delta.Table}] ; '         │
+│ 1       │ 'C:\\Dev\\Efecty.SiewebLive\\BackGround.TablasBasicas\\Cache\\Servicios\\CacheRepositoryServicio.cs' │ ' SELECT * FROM [{delta.Table}] ; '         │
+│ 2       │ 'C:\\Dev\\Efecty.SiewebLive\\BackGround.TablasBasicas\\Cache\\Servicios\\CacheRepositoryServicio.cs' │ ' SELECT * FROM [{delta.Table}] ; '         │
+│ 3       │ 'C:\\Dev\\Efecty.SiewebLive\\BackGround.TablasBasicas\\Cache\\Servicios\\CacheRepositoryServicio.cs' │ ' SELECT * FROM [{dataTable.TableName}] ; ' │
+└─────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Administracion.Clientes.Tests\\ClientesNegocioTest.cs'
+}
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────────────────────────┐
+│ (index) │ file                                                                                                │ storedProcedureName                                                      │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Administracion.Clientes.Tests\\ClientesNegocioTest.cs' │ 'SELECT * FROM lista_restrictiva ORDER BY lisresfechaactualizacion desc' │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Administracion.Tests\\SolicitudesNegocioTest.cs'
+}
+┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────┐
+│ (index) │ file                                                                                          │ storedProcedureName                                     │
+├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Administracion.Tests\\SolicitudesNegocioTest.cs' │ "SELECT * FROM SOLICITUDESPS WHERE SOLPSMOVIMIENTO = '" │
+└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\AccesoDatos\\ADLComun.cs'
+}
+┌─────────┬───────────────────────────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ (index) │ file                                                                          │ storedProcedureName                                                                                 │
+├─────────┼───────────────────────────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\AccesoDatos\\ADLComun.cs' │ ''                                                                                                  │
+│ 1       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\AccesoDatos\\ADLComun.cs' │ ''                                                                                                  │
+│ 2       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\AccesoDatos\\ADLComun.cs' │ ''                                                                                                  │
+│ 3       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\AccesoDatos\\ADLComun.cs' │ ''                                                                                                  │
+│ 4       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\AccesoDatos\\ADLComun.cs' │ ''                                                                                                  │
+│ 5       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\AccesoDatos\\ADLComun.cs' │ "SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'AUDITORIAS_SINCRONIZACION'"            │
+│ 6       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\AccesoDatos\\ADLComun.cs' │ "SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'AUDITORIA_EXCEPCIONES_SINCRONIZACION'" │
+└─────────┴───────────────────────────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\Servicios\\SupervisorImpresora.cs'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────────────────┐
+│ (index) │ file                                                                                   │ storedProcedureName                          │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\Servicios\\SupervisorImpresora.cs' │ "SELECT * FROM Win32_Printer where Name = '" │
+│ 1       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Comun\\Servicios\\SupervisorImpresora.cs' │ "SELECT * FROM Win32_Printer where Name = '" │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Empresarial\\AccesoDatos\\AdlEmpresarialBase.cs'
+}
+┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │ file                                                                                          │ storedProcedureName │
+├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Empresarial\\AccesoDatos\\AdlEmpresarialBase.cs' │ ''                  │
+└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Seguridad.Tests\\SeguridadNegocioTest.cs'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────┐
+│ (index) │ file                                                                                   │ storedProcedureName      │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.Seguridad.Tests\\SeguridadNegocioTest.cs' │ 'SELECT * FROM USUARIO ' │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.ServicioTecnico.Tests\\ServicioTecnicoNegocioTest.cs'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────────────────────┐
+│ (index) │ file                                                                                               │ storedProcedureName       │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Cliente.Modulos.ServicioTecnico.Tests\\ServicioTecnicoNegocioTest.cs' │ 'SELECT * FROM PROYECTOS' │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────────────────────┴───────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Framework.Gestores\\Diagnostico\\AntivirusDetection.cs'
+}
+┌─────────┬──────────────────────────────────────────────────────────────────────────────────────┬──────────────────────────────────┐
+│ (index) │ file                                                                                 │ storedProcedureName              │
+├─────────┼──────────────────────────────────────────────────────────────────────────────────────┼──────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Framework.Gestores\\Diagnostico\\AntivirusDetection.cs' │ 'SELECT * FROM AntivirusProduct' │
+└─────────┴──────────────────────────────────────────────────────────────────────────────────────┴──────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net20\\System.Data.SQLite.xml'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │ file                                                                                                                   │ storedProcedureName │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net20\\System.Data.SQLite.xml' │ ''                  │
+│ 1       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net20\\System.Data.SQLite.xml' │ ''                  │
+│ 2       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net20\\System.Data.SQLite.xml' │ ''                  │
+│ 3       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net20\\System.Data.SQLite.xml' │ 'SELECT * FROM t1;' │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net40\\System.Data.SQLite.xml'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │ file                                                                                                                   │ storedProcedureName │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net40\\System.Data.SQLite.xml' │ ''                  │
+│ 1       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net40\\System.Data.SQLite.xml' │ ''                  │
+│ 2       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net40\\System.Data.SQLite.xml' │ ''                  │
+│ 3       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\net40\\System.Data.SQLite.xml' │ 'SELECT * FROM t1;' │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.0\\System.Data.SQLite.xml'
+}
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │ file                                                                                                                            │ storedProcedureName │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.0\\System.Data.SQLite.xml' │ ''                  │
+│ 1       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.0\\System.Data.SQLite.xml' │ ''                  │
+│ 2       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.0\\System.Data.SQLite.xml' │ ''                  │
+│ 3       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.0\\System.Data.SQLite.xml' │ 'SELECT * FROM t1;' │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.1\\System.Data.SQLite.xml'
+}
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │ file                                                                                                                            │ storedProcedureName │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.1\\System.Data.SQLite.xml' │ ''                  │
+│ 1       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.1\\System.Data.SQLite.xml' │ ''                  │
+│ 2       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.1\\System.Data.SQLite.xml' │ ''                  │
+│ 3       │ 'C:\\Dev\\Efecty.SiewebLive\\Librerias\\SQLite\\System.Data.SQLite.Core.1.0.112.2\\lib\\netstandard2.1\\System.Data.SQLite.xml' │ 'SELECT * FROM t1;' │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\LogicaNegocio.TablasBasicas\\TablasBasicasNegocio.cs'
+}
+┌─────────┬────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │ file                                                                               │ storedProcedureName │
+├─────────┼────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\LogicaNegocio.TablasBasicas\\TablasBasicasNegocio.cs' │ ''                  │
+└─────────┴────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Modulos.Seguridad\\Servicios\\SeguridadNegocio.cs'
+}
+┌─────────┬─────────────────────────────────────────────────────────────────────────────────┬───────────────────────────────────────┐
+│ (index) │ file                                                                            │ storedProcedureName                   │
+├─────────┼─────────────────────────────────────────────────────────────────────────────────┼───────────────────────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Modulos.Seguridad\\Servicios\\SeguridadNegocio.cs' │ 'SELECT * FROM Win32_OperatingSystem' │
+│ 1       │ 'C:\\Dev\\Efecty.SiewebLive\\Modulos.Seguridad\\Servicios\\SeguridadNegocio.cs' │ 'SELECT * FROM Win32_Processor'       │
+│ 2       │ 'C:\\Dev\\Efecty.SiewebLive\\Modulos.Seguridad\\Servicios\\SeguridadNegocio.cs' │ 'SELECT * FROM Win32_ComputerSystem'  │
+│ 3       │ 'C:\\Dev\\Efecty.SiewebLive\\Modulos.Seguridad\\Servicios\\SeguridadNegocio.cs' │ 'SELECT * FROM Win32_DiskDrive'       │
+│ 4       │ 'C:\\Dev\\Efecty.SiewebLive\\Modulos.Seguridad\\Servicios\\SeguridadNegocio.cs' │ 'SELECT * FROM Win32_BIOS'            │
+└─────────┴─────────────────────────────────────────────────────────────────────────────────┴───────────────────────────────────────┘
+{
+  filePath: 'C:\\Dev\\Efecty.SiewebLive\\Modulos.ServicioTecnico\\AccesoDatos\\ADLServicioTecnicoBase.cs'
+}
+┌─────────┬───────────────────────────────────────────────────────────────────────────────────────────────┬─────────────────────┐
+│ (index) │ file                                                                                          │ storedProcedureName │
+├─────────┼───────────────────────────────────────────────────────────────────────────────────────────────┼─────────────────────┤
+│ 0       │ 'C:\\Dev\\Efecty.SiewebLive\\Modulos.ServicioTecnico\\AccesoDatos\\ADLServicioTecnicoBase.cs' │ 'SELECT * FROM '    │
+└─────────┴───────────────────────────────────────────────────────────────────────────────────────────────┴─────────────────────┘
+┌─────────┬────────┐
+│ (index) │ Values │
+├─────────┼────────┤
+│ count   │ 42     │
+└─────────┴────────┘
