@@ -9,13 +9,13 @@ function processFile(filePath: string, fileName: string) {
         if (stats.isDirectory()) {
             traverseDirectory(filePath, fileName);
         } else {
-            if (filePath.includes('.dll') || filePath.includes('.pubxml')) return;
+            if (filePath.includes('.dll') || filePath.includes('.pubxml') || filePath.includes('.xml')) return;
 
             const data = fs.readFileSync(filePath, 'utf8');
             if (data.length > 0) {
                 const targetSubstring = "GetStoredProcCommand";
                 if (data.includes(targetSubstring)) {
-                    myLogger.log({ filePath })
+                    // myLogger.log({ filePath })
                     const file = filePath.split('//').reverse()[0];
 
                     const lines = data.split('\r\n');;
@@ -24,14 +24,15 @@ function processFile(filePath: string, fileName: string) {
                     if (linesWithSubstring) {
                         const storedProcedureNames = linesWithSubstring.map(lineWithSubstring => {
                             const matching = lineWithSubstring.match(/"([^"]+)"/);
-                            const storedProcedureName = matching ? matching[1] : '';
+                            let storedProcedureName = matching ? matching[1] : '';
                             count = count + 1;
+                            storedProcedureName = storedProcedureName.replace('[', '').replace(']', '');
                             return { file, storedProcedureName };
                         });
 
                         storeProceduresFound = storeProceduresFound.concat(storedProcedureNames);
 
-                        myLogger.table(storedProcedureNames);
+                        // myLogger.table(storedProcedureNames);
                     }
                 }
             }
@@ -100,8 +101,8 @@ let count = 0;
 let storeProceduresFound: { file: string; storedProcedureName: string }[] = [];
 
 let myLogger = new Console({
-    stdout: fs.createWriteStream(`stdout.txt`), // Save normal logs here
-    stderr: fs.createWriteStream("errStdErr.txt"),    // Save error logs here
+    stdout: fs.createWriteStream(`files/stdout.txt`), // Save normal logs here
+    stderr: fs.createWriteStream("files/errStdErr.txt"),    // Save error logs here
 });
 
 projects.forEach(project => {
@@ -111,8 +112,8 @@ projects.forEach(project => {
     const fileName = directoryPath.replaceAll(':', '').replaceAll('/', '-').replaceAll('.', '');
 
     myLogger = new Console({
-        stdout: fs.createWriteStream(`${fileName}.txt`),
-        stderr: fs.createWriteStream("errStdErr.txt"),
+        stdout: fs.createWriteStream(`files/${fileName}.txt`),
+        stderr: fs.createWriteStream("files/errStdErr.txt"),
     });
 
     traverseDirectory(directoryPath, fileName);
@@ -122,12 +123,12 @@ projects.forEach(project => {
             console.error('Error creating CSV:', err);
             return;
         }
-        fs.writeFileSync(`${fileName}.csv`, output);
+        fs.writeFileSync(`files/${fileName}.csv`, output);
     });
 
     console.table(storeProceduresFound);
     console.log({ fileName, count })
-    myLogger.table({ count })
+    // myLogger.table({ count })
 
     //Set the global
     globalStoreProcedures = globalStoreProcedures.concat(storeProceduresFound);
@@ -139,8 +140,8 @@ projects.forEach(project => {
 //#region Global SP
 
 myLogger = new Console({
-    stdout: fs.createWriteStream(`${globalFileName}.txt`), // Save normal logs here
-    stderr: fs.createWriteStream("errStdErr.txt"),    // Save error logs here
+    stdout: fs.createWriteStream(`files/${globalFileName}.txt`), // Save normal logs here
+    stderr: fs.createWriteStream("files/errStdErr.txt"),    // Save error logs here
 });
 
 csv.stringify(globalStoreProcedures, (err, output) => {
@@ -148,7 +149,7 @@ csv.stringify(globalStoreProcedures, (err, output) => {
         console.error('Error creating CSV:', err);
         return;
     }
-    fs.writeFileSync(`${globalFileName}.csv`, output);
+    fs.writeFileSync(`files/${globalFileName}.csv`, output);
 });
 
 myLogger.table(globalStoreProcedures);

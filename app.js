@@ -11,13 +11,13 @@ function processFile(filePath, fileName) {
             traverseDirectory(filePath, fileName);
         }
         else {
-            if (filePath.includes('.dll') || filePath.includes('.pubxml'))
+            if (filePath.includes('.dll') || filePath.includes('.pubxml') || filePath.includes('.xml'))
                 return;
             var data = fs.readFileSync(filePath, 'utf8');
             if (data.length > 0) {
-                var targetSubstring_1 = "SELECT *";
+                var targetSubstring_1 = "GetStoredProcCommand";
                 if (data.includes(targetSubstring_1)) {
-                    myLogger.log({ filePath: filePath });
+                    // myLogger.log({ filePath })
                     var file_1 = filePath.split('//').reverse()[0];
                     var lines = data.split('\r\n');
                     ;
@@ -27,10 +27,11 @@ function processFile(filePath, fileName) {
                             var matching = lineWithSubstring.match(/"([^"]+)"/);
                             var storedProcedureName = matching ? matching[1] : '';
                             count = count + 1;
+                            storedProcedureName = storedProcedureName.replace('[', '').replace(']', '');
                             return { file: file_1, storedProcedureName: storedProcedureName };
                         });
                         storeProceduresFound = storeProceduresFound.concat(storedProcedureNames);
-                        myLogger.table(storedProcedureNames);
+                        // myLogger.table(storedProcedureNames);
                     }
                 }
             }
@@ -88,14 +89,14 @@ var projects = [
 ];
 var globalStoreProcedures = [];
 var globalCount = 0;
-var globalFileName = 'global-select';
+var globalFileName = 'global-store-procedures';
 //#endregion
 //#region Local to the projects
 var count = 0;
 var storeProceduresFound = [];
 var myLogger = new console_1.Console({
-    stdout: fs.createWriteStream("stdout.txt"), // Save normal logs here
-    stderr: fs.createWriteStream("errStdErr.txt"), // Save error logs here
+    stdout: fs.createWriteStream("files/stdout.txt"), // Save normal logs here
+    stderr: fs.createWriteStream("files/errStdErr.txt"), // Save error logs here
 });
 projects.forEach(function (project) {
     count = 0;
@@ -103,8 +104,8 @@ projects.forEach(function (project) {
     var directoryPath = project;
     var fileName = directoryPath.replaceAll(':', '').replaceAll('/', '-').replaceAll('.', '');
     myLogger = new console_1.Console({
-        stdout: fs.createWriteStream("".concat(fileName, "-select.txt")),
-        stderr: fs.createWriteStream("errStdErr.txt"),
+        stdout: fs.createWriteStream("files/".concat(fileName, ".txt")),
+        stderr: fs.createWriteStream("files/errStdErr.txt"),
     });
     traverseDirectory(directoryPath, fileName);
     csv.stringify(storeProceduresFound, function (err, output) {
@@ -112,11 +113,11 @@ projects.forEach(function (project) {
             console.error('Error creating CSV:', err);
             return;
         }
-        fs.writeFileSync("".concat(fileName, "-select.csv"), output);
+        fs.writeFileSync("files/".concat(fileName, ".csv"), output);
     });
     console.table(storeProceduresFound);
     console.log({ fileName: fileName, count: count });
-    myLogger.table({ count: count });
+    // myLogger.table({ count })
     //Set the global
     globalStoreProcedures = globalStoreProcedures.concat(storeProceduresFound);
     globalCount = globalCount + count;
@@ -124,15 +125,15 @@ projects.forEach(function (project) {
 //#endregion
 //#region Global SP
 myLogger = new console_1.Console({
-    stdout: fs.createWriteStream("".concat(globalFileName, ".txt")), // Save normal logs here
-    stderr: fs.createWriteStream("errStdErr.txt"), // Save error logs here
+    stdout: fs.createWriteStream("files/".concat(globalFileName, ".txt")), // Save normal logs here
+    stderr: fs.createWriteStream("files/errStdErr.txt"), // Save error logs here
 });
 csv.stringify(globalStoreProcedures, function (err, output) {
     if (err) {
         console.error('Error creating CSV:', err);
         return;
     }
-    fs.writeFileSync("".concat(globalFileName, ".csv"), output);
+    fs.writeFileSync("files/".concat(globalFileName, ".csv"), output);
 });
 myLogger.table(globalStoreProcedures);
 //#endregion
