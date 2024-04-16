@@ -4,12 +4,15 @@
   "type": "commonjs",
   "scripts": {
     "start": "tsc app.ts -w && nodemon --exec node dist/app.js",
+    "start-comparer": "tsc comparer.ts -w && nodemon --exec node dist/comparer.js",
     "build": "tsc"
   },
   "dependencies": {
     "csv-stringify": "^6.4.6",
+    "csvtojson": "^2.0.10",
     "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
