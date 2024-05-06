@@ -5,6 +5,7 @@
   "scripts": {
     "start": "tsc app.ts -w && nodemon --exec node dist/app.js",
     "start-comparer": "tsc comparer.ts -w && nodemon --exec node dist/comparer.js",
+    "start-sp-analyzer": "tsc sp-analyzer.ts -w && nodemon --exec node dist/sp-analyzer.js",
     "build": "tsc"
   },
   "dependencies": {
