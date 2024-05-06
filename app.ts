@@ -13,7 +13,7 @@ function processFile(filePath: string, fileName: string) {
 
             const data = fs.readFileSync(filePath, 'utf8');
             if (data.length > 0) {
-                const targetSubstring = "origen_cliente";
+                const targetSubstring = "GetStoredProcCommand";
                 if (data.includes(targetSubstring)) {
                     // myLogger.log({ filePath })
                     const file = filePath.split('//').reverse()[0];
@@ -159,5 +159,5 @@ function init() {
 }
 let count = 0;
 let storeProceduresFound: { file: string; storedProcedureName: string }[] = [];
-// console.log("Hey ma men")
-init();
+console.log("Hey ma men")
+// init();
